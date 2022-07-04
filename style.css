@@ -4,6 +4,9 @@ body{
     margin: 0;
     font-family: 'Roboto Slab', serif;
 }
+h1{
+    font-size: 48px;
+}
 #heder{
     font-family: 'Roboto Slab', serif;
     padding: 10px 20px;
@@ -19,7 +22,7 @@ body{
 }
 .main_head h1{
 font-weight: 800;
-font-size: 42px;
+
 letter-spacing: 5px;
 padding-top: 15px;
 }
@@ -67,3 +70,23 @@ padding-top: 15px;
     padding-bottom: 30px;
 }
 /* banner part end */
+/* about part strat */
+#about h1{
+    text-align: center;
+}
+.Experiences_head{
+    display: flex;
+    padding: 20px 0;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.experience_item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 5px;
+}
+/* about part end */
