@@ -2,6 +2,7 @@ body{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     margin: 0;
+    font-family: 'Roboto Slab', serif;
 }
 #heder{
     font-family: 'Roboto Slab', serif;
@@ -35,4 +36,34 @@ padding-top: 15px;
     background-image: linear-gradient(orange, orangered);
     border-radius: 5px;
     font-weight: 600;
+    
 }
+/* banner part start */
+#banner{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.banner_left{
+    width: 50%;
+}
+.banner_left img{
+    width: 70%;
+}
+
+.banner_right{
+    width: 50%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.banner_right h1{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.banner_right p{
+    padding-bottom: 30px;
+}
+/* banner part end */
