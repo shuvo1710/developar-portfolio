@@ -73,6 +73,7 @@ padding-top: 15px;
 /* about part strat */
 #about h1{
     text-align: center;
+    font-family: 'Roboto Slab', serif;
 }
 .Experiences_head{
     display: flex;
@@ -88,5 +89,20 @@ padding-top: 15px;
     margin-right: 5%;
     box-shadow: 10px 10px 20px gray;
     border-radius: 5px;
+    
+}
+.experience_item p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.border_left01{
+    border-left: 7px solid tomato;
+}
+.border_left02{
+    border-left: 7px solid blue;
 }
 /* about part end */
+footer{
+    text-align: center;
+}
